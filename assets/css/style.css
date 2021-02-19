@@ -1,4 +1,8 @@
-body {
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
     margin: 0;
     padding: 0;
     background-color: darkslategrey;
@@ -62,3 +66,5 @@ nav a:hover {
       justify-content: center;
       margin-bottom: 20px;
     }
+}
+
