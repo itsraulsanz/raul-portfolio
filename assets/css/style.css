@@ -24,7 +24,11 @@ header {
 
 header h1 {
     font-size: 4vw;
-    text-transform: uppercase;
+    text-transform: uppercase;    
+    background: linear-gradient(0deg, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 16%, coral 16%, coral 41%, rgba(255,0,255,0) 41%);
+    padding: 0 0.5em 0 0.5em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 nav {
@@ -33,17 +37,19 @@ nav {
     flex-wrap: wrap;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 1.1rem;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    padding: 10px 10px;
+    padding: 11px 11px;
 }
 
 nav a:hover {
-    padding-top: 1%;
-    text-decoration: line-through;
+    background: linear-gradient(0deg, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 30%, coral 16%, coral 50%, rgba(255,0,255,0) 41%);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 
@@ -57,9 +63,9 @@ nav a:hover {
     }
   
     header h1 {
-      width: 100%;
       font-size: 10vw;
-      margin-bottom: 0%;
+      margin: 2% 0 0 0;
+      padding: 0 0.5em 0 0.5em;
     }
   
     header nav {
