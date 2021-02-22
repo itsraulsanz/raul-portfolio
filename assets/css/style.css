@@ -106,13 +106,21 @@ nav a:hover {
   flex: 0 0 72%;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .flex-item {
-  background-color: black;
+  background-color: rgb(233, 152, 152);
   min-height: 150px;
   max-height: 150px;
   display: flex;
   align-items: flex-end;
-  margin: 1em;  
+  margin-bottom: 20px;
+  border: 3px solid black;
+  flex-basis: 48%;
 }
 
 .flex-item:first-child {
