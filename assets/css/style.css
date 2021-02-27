@@ -186,6 +186,21 @@ nav li {
   padding: 5px 8px;
 }
 
+.profile_img {
+  background-image: url("../images/profile_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  float: left;
+  width: 25%;
+  height: 320px;
+  min-height: 26vh;
+  padding: 2% 20%;
+  margin: 0 25px 0px 0;
+  display:inline;
+}
+
 .project_5 {
   background-image: url("../images/project_5.jpg");
 }
