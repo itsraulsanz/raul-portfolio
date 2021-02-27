@@ -47,16 +47,6 @@ header h1 {
     -webkit-box-decoration-break: clone;
 }
 
-nav {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-}
-
 nav a {
     text-decoration: none;
     color: white;
@@ -70,6 +60,14 @@ nav a:hover {
 }
 
 nav ul {
+  list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -78,7 +76,6 @@ nav ul {
 nav li {
   list-style: none;
   display: inline-block;
-  display: inline;
 }
 
 
@@ -285,9 +282,6 @@ address a:hover {
   border-right: 0;
   border-bottom: 3px solid;
 }
-nav {
-  flex: 0 0 100%;
-}
 nav li {
   width: fit-content;
   padding-bottom: 2%;
@@ -297,10 +291,21 @@ nav li {
 
 @media screen and (max-width: 470px) {
   nav ul {
-    color: burlywood;
     flex: 0 0 100%;
     flex-direction: column;
     align-items: center;
     display: flex;
-  } 
+  }
+  nav li {
+    font-size: 4vw;
+  }
+  footer ul {
+    flex: 0 0 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+  footer li {
+    font-size: 4vw;
+  }
 }
