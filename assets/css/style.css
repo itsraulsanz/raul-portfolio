@@ -202,7 +202,8 @@ nav li {
 }
 
 .project_5 {
-  background-image: url("../images/project_5.jpg");
+  background-image: url("../images/project_5_horiseon.jpg");
+  background-position-y: top;
 }
 
 .project_4 {
@@ -221,22 +222,16 @@ nav li {
   background-image: url("../images/project_1.jpg");
 }
 
-footer div {
-  flex: 0 0 77%;
-}
-
 address ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   height: 100%;
   font-size: 1.3rem;
   font-style: normal;
+  justify-content: space-around;
+  display: flex;
 }
 
 address li {
