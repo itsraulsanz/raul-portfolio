@@ -209,6 +209,40 @@ nav li {
   background-image: url("../images/project_1.jpg");
 }
 
+footer div {
+  flex: 0 0 77%;
+}
+
+address ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  font-size: 1.3rem;
+  font-style: normal;
+}
+
+address li {
+  display: inline-block;
+}
+
+address a {
+  text-decoration: none;
+  color: white;
+  padding: 11px 11px;
+}
+
+address a:hover {
+  background: linear-gradient(0deg, rgba(255,0,255,0) 0%, rgba(255,0,255,0) 20%, #7c91cc 16%, #7c91cc 50%, rgba(255,0,255,0) 41%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 
 @media screen and (max-width: 768px) {
     header {
