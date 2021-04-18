@@ -1,135 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Raul's Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- HEADER -->
 
     <header>
+      <h1>Raul Sanz</h1>
 
-        <h1>Raul Sanz</h1>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about_me">About me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact_me">Contact me</a>
-                </li>
-                <li>
-                    <a href="assets/pdf/raulsanz_cv.pdf" target="_blank">Resume</a>
-                </li>
-            </ul>
-        </nav>
-
+      <nav>
+        <ul>
+          <li>
+            <a href="#about_me">About me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact_me">Contact me</a>
+          </li>
+          <li>
+            <a href="assets/pdf/raulsanz_cv.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- SUBHEADER -->
 
     <section class="subheader">
-        <div>
-            <h2>Portfolio</h2>
-        </div>
+      <div>
+        <h2>Portfolio</h2>
+      </div>
     </section>
 
     <main class="page-wrapper">
+      <!-- ABOUT ME -->
+      <section class="page-section" id="about_me">
+        <h2>About me</h2>
+        <div>
+          <img
+            class="profile_img"
+            src="./assets/images/profile_img.jpg"
+            alt="Raul's picture"
+          />
+          <p>
+            Creative and passionate designer with an established Digital Design
+            experience alongside a vast amount of knowledge within marketing and
+            advertising. Including a multiple skill set that compliments the
+            disciplines of Design, programming and UX. Currently I am studying
+            Full Stack Developer at University of Manchester.
+          </p>
+          <p>
+            Moving forward I am looking for a challenging position as a
+            developer, in which my passion for digital industry and experience
+            will be valued.
+          </p>
+        </div>
+      </section>
 
-        <!-- ABOUT ME -->
-        <section class="page-section" id="about_me">
-            <h2>About me</h2>
+      <!-- WORK -->
+      <section class="page-section" id="work">
+        <h2>Work</h2>
+        <div class="flex-container">
+          <!-- MAIN PROJECT -->
+          <a
+            href="https://itsraulsanz.github.io/trilogy-film-project/index.html"
+            class="flex-item project_5"
+            target="_blank"
+          >
             <div>
-                <img class="profile_img" src="./assets/images/profile_img.jpg" alt="Raul's picture">
-                <p>A creative and passionate graphic designer with over eight years’ experience in advertising and marketing, working in both online and offline. Experienced at visual strategy, creativity, layout development and production for digital and
-                    print.
-                </p>
-                <p>I enjoy improving myself and being successful with every project I undertake. I also believe I bring enthusiasm and motivation to any team that I work with due to my passion for creativity and hard work.</p>
+              <h3>Hammered Horror</h3>
+              <span>Film/Series searcher based on the Horror genre.</span>
             </div>
-        </section>
+          </a>
 
-        <!-- WORK -->
-        <section class="page-section" id="work">
-            <h2>Work</h2>
-            <div class="flex-container">
-
-                <!-- PROJECT 5 -->
-                <a href="https://itsraulsanz.github.io/week1-css-demo-site/" class="flex-item project_5">
-                    <div>
-                        <h3>Horiseon</h3>
-                        <span>Refactored website to achieve an accessible website.</span>
-                    </div>
-                </a>
-
-                <!-- PROJECT 4 -->
-                <a href="#" class="flex-item project_4">
-                    <div>
-                        <h3>Password Generator</h3>
-                        <span>March 7, 2021</span>
-                    </div>
-                </a>
-
-                <!-- PROJECT 3 -->
-                <a href="#" class="flex-item project_3">
-                    <div>
-                        <h3>Code Quiz</h3>
-                        <span>March 14, 2021</span>
-                    </div>
-                </a>
-
-                <!-- PROJECT 2 -->
-                <a href="#" class="flex-item project_2">
-                    <div>
-                        <h3>Day Planner</h3>
-                        <span>March 21, 2021</span>
-                    </div>
-                </a>
-
-                <!-- PROJECT 1 -->
-                <a href="#" class="flex-item project_1">
-                    <div>
-                        <h3>Weather Dashboard</h3>
-                        <span>March 28, 2021</span>
-                    </div>
-                </a>
+          <!-- PROJECT 4 -->
+          <a
+            href="https://itsraulsanz.github.io/weather-forecast/"
+            class="flex-item project_4"
+            target="_blank"
+          >
+            <div>
+              <h3>Weather Dashboard</h3>
+              <span>Weather outlook for multiple cities.</span>
             </div>
+          </a>
+
+          <!-- PROJECT 3 -->
+          <a
+            href="https://itsraulsanz.github.io/plan-your-day/"
+            class="flex-item project_3"
+            target="_blank"
+          >
+            <div>
+              <h3>Work Day Scheduler</h3>
+              <span>Allows a user to save events for each business hour.</span>
+            </div>
+          </a>
+
+          <!-- PROJECT 2 -->
+          <a
+            href="https://itsraulsanz.github.io/raul-quiz/"
+            class="flex-item project_2"
+            target="_blank"
+          >
+            <div>
+              <h3>Code Quiz</h3>
+              <span>Timed coding quiz with multiple-choice questions.</span>
+            </div>
+          </a>
+
+          <!-- PROJECT 1 -->
+          <a
+            href="https://itsraulsanz.github.io/password-generator/"
+            class="flex-item project_1"
+            target="_blank"
+          >
+            <div>
+              <h3>Password Generator</h3>
+              <span>Passwords generator based on the criteria selected.</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- CONTACT ME -->
+      <footer>
+        <section class="page-section" id="contact_me">
+          <h2>Contact me</h2>
+
+          <div>
+            <address>
+              <ul>
+                <li>
+                  <a href="mailto:contact@designraul.com" target="_blank"
+                    >contact@designraul.com</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/itsraulsanz" target="_blank"
+                    >Github</a
+                  >
+                </li>
+                <li>
+                  <a href="https://linkedin.com/in/raulsd" target="_blank"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
         </section>
-
-        <!-- CONTACT ME -->
-        <footer>
-            <section class="page-section" id="contact_me">
-                <h2>Contact me</h2>
-
-                <div>
-                    <address>
-            <ul>
-                <li>
-                    <a href="mailto:contact@designraul.com" target="_blank">contact@designraul.com</a>
-                </li>
-                <li>
-                    <a href="https://github.com/itsraulsanz" target="_blank">Github</a>
-                </li>
-                <li>
-                    <a href="https://linkedin.com/in/raulsd" target="_blank">Linkedin</a>
-                </li>
-            </ul>
-        </address>
-                </div>
-            </section>
-        </footer>
-
+      </footer>
     </main>
-
-</body>
-
+  </body>
 </html>
