@@ -182,7 +182,7 @@ nav li {
 .flex-item {
     background-color: white;
     background-blend-mode: darken;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     color: var(--primary);
     min-height: 150px;
@@ -216,8 +216,22 @@ nav li {
     padding: 5px 8px;
 }
 
+.project_8 {
+    background-image: url("../images/project_8.jpg");
+    background-position-y: top;
+}
+
+.project_7 {
+    background-image: url("../images/project_7.jpg");
+    background-position-y: top;
+}
+
+.project_6 {
+    background-image: url("../images/project_6.jpg");
+}
+
 .project_5 {
-    background-image: url("../images/project_main.jpg");
+    background-image: url("../images/project_5.jpg");
     background-position-y: top;
 }
 
